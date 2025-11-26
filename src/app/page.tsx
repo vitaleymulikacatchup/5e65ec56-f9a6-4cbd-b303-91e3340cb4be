@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
 import HeroOverlay from '@/components/sections/hero/HeroOverlay';
@@ -196,7 +196,6 @@ export default function LandingPage() {
           tagIcon={HelpCircle}
           textboxLayout="default"
           animationType="smooth"
-          showCard={true}
           faqs={[
             {
               id: "1",
